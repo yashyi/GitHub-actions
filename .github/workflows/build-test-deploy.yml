@@ -35,7 +35,7 @@ jobs:
 
     environment: 
      name: production
-     url: ${{ steps.deploymnet.outputs.pages-url }}
+     url: ${{ steps.deploymnet.outputs.pages_url }}
 
     runs-on: ubuntu-latest
 
